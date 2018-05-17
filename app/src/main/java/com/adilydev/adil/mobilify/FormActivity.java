@@ -36,12 +36,6 @@ public class FormActivity extends AppCompatActivity {
     RequestQueue requestQueue;
     UUID uid;
 
-
-    String insertUrl = "http://18.220.23.144/mobilifydb/insertData.php";
-
-    // String licenseText;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
