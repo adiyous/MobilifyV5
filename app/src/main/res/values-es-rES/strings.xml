@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobilify</string>
+    <string name="title_home" translatable="false">Preparado para reportar?</string>
+    <string name="title_notifications" translatable="false">Notificaciones</string>
+    <string name="licence">Licencia</string>
+    <string name="must">Tiene que tener 6 caracteres</string>
+    <string name="state">Violacion</string>
+    <string name="confirm">Confirmar -></string>
+    <string name="license">Placa patente</string>
+    <string name="violation">Violacion</string>
+    <string name="title_activity_success">Exito</string>
+    <string name="Cant">Si no veo la placa patente o no tiene una?</string>
+    <string name="ForeignQ">Si tiene una licencia extranjera</string>
+    <string name="UnsureQ">Y si no estoy seguro de un numero o letra de la placa patente?</string>
+</resources>

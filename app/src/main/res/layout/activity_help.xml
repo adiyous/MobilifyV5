@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adilydev.adil.mobilify.Help"
+    android:orientation="vertical"
+    android:background="@drawable/mobilify_ios_background">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELP"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="24dp"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Cant"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:textSize="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Vin"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="center"
+            android:textSize="12dp"
+            android:textColor="#00BFA5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OutOfStateQ"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:textSize="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OutOfStateA"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="center"
+            android:textSize="12dp"
+            android:textColor="#00BFA5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ForeignQ"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:textSize="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ForeignA"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="center"
+            android:textSize="12dp"
+            android:textColor="#00BFA5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/UnsureQ"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:textSize="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/UnsureA"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="center"
+            android:textSize="12dp"
+            android:textColor="#00BFA5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Was your quastion answered ?"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:textSize="16dp"
+            />
+    </LinearLayout>
+        </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        >
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="No"
+            android:background="@color/colorPrimary"
+            />
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Yes"
+            android:background="#FFC400"
+            />
+
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

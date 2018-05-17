@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adilydev.adil.mobilify.Success"
+    android:weightSum="1"
+    android:background="@drawable/mobilify_ios_background">
+
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/check_ios" />
+
+            <TextView
+                android:id="@+id/success"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Success"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/success1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thank you for using our app"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/success4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Your Report was sent succesfully "
+                />
+
+            <TextView
+                android:id="@+id/success2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="24dp"
+                android:text="licence : " />
+
+            <TextView
+                android:id="@+id/success3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Violation : "
+                android:layout_marginLeft="24dp"
+                />
+
+            <TextView
+                android:id="@+id/tvUid"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:text="UID : "
+                />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:text="Date : "
+                />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

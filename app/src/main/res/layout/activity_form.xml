@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adilydev.adil.mobilify.FormActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mobilify_ios_background">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="@string/license"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/etLicense"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="24dp"
+                    android:background="#ECEFF1"
+                    android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                    android:elevation="5dp"
+                    android:gravity="center"
+                    android:hint="ABCD12"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="6"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center"
+                    android:text="@string/must" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type of danger: "
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="true"/>
+
+
+                <Spinner
+                    android:id="@+id/spViolation"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="14dp"
+                    android:background="#ECEFF1"
+                    android:elevation="5dp"
+                    android:popupBackground="#ECEFF1"
+                    android:spinnerMode="dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notes"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14dp"
+                android:textAllCaps="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="#ECEFF1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/notes"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom">
+
+                <Button
+                    android:id="@+id/btnHelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:background="#29B6F6"
+                    android:text="Help" />
+
+                <Button
+                    android:id="@+id/btnConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#FFC400"
+                    android:text="Confirm" />
+
+            </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mobilify</string>
+    <string name="title_home">Ready to report dangerous driving?</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="licence">Licence</string>
+    <string name="must">Must be 6 characters only letters and numbers</string>
+    <string name="state">Violation:</string>
+    <string name="confirm">Confirm -> </string>
+    <string name="license">License Plate Number:</string>
+    <string name="violation">Violation</string>
+    <string name="title_activity_success">Success</string>
+    <string name="Cant">What if I can\'t see the vehicle license plate or there is no license plate?</string>
+    <string name="Vin">Unless you are able to get the VIN # etched into the glass of one of the vehicle’s windows, unfortunately there is currently no way to report a vehicle without a license plate.</string>
+    <string name="OutOfStateA">Out-of-state license plates can be entered just like an in-state license plate; simply select the state from the drop-down menu on the report form.</string>
+    <string name="ForeignQ">What if it is a license plate from a foreign country?</string>
+    <string name="ForeignA">You can submit a report for a license plate from a foreign country (including diplomatic license plates) by selecting “Other - Foreign Country” from the drop-down menu and type the name of the country in the “Notes” field on the report form.</string>
+    <string name="UnsureQ">What if I am unsure of one digit/character of the license plate?</string>
+    <string name="UnsureA">You can enter your best guess in the license plate # field, and in the “Notes” field, specify which digit/character you are unsure about or what else you think that digit/character could have been.</string>
+    <string name="OutOfStateQ">What if it is out-of-state license plate?\t</string>
+    <string name="title_activity_login">Login</string>
+</resources>
