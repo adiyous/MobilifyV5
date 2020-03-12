@@ -28,7 +28,7 @@ public class Help extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast t = Toast.makeText(getApplicationContext(),
-                        "Glad to answer your quastion", Toast.LENGTH_SHORT);
+                        "Glad to answer your question", Toast.LENGTH_SHORT);
                 t.show();
             }
         });
