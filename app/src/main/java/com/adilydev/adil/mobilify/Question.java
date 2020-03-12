@@ -28,7 +28,7 @@ public class Question extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast t = Toast.makeText(getApplicationContext(),
-                        "Thank you, we will answer your quastion shortly",
+                        "Thank you, we will answer your question shortly",
                         Toast.LENGTH_SHORT);
                 t.show();
             }
